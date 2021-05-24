@@ -33,7 +33,7 @@ $ bench restart
 
 
 
-## Verify Installation of Applications.
+## Check Installed Applications
 
 #### Step 1: 
 
