@@ -27,9 +27,31 @@ $ bench restart
 
 
 
+### Prerequisite / Settings
+
+There are no Prerequisite to this application but it is good to have following settings.
+
+1. Company Generating Sales Invoice have Address Assigned to it.
+
+##### For Assigning Address to Company 
+
+![Add Company](./assets/add-company.gif)
+
+## usage
+
+Using Swiss-E-Invoice-ERPnext is fully automated, you just need to create a Sales Invoice and It Generates the PDF
 
 
 
+## Swiss-QR-Bill-ERPNext
+
+
+
+
+
+## ESTV-SuisseTax-FX
+
+ESTV-SuisseTax-FX is a cron/scheduled application which daily updates your exchange rate with other currencies.
 
 
 
@@ -56,12 +78,6 @@ Click On About
 In about section it should show the installed apps with their versions. Like Here Estv Suissetax FX, Grynnswissqrbill & Swiss Factur X E Invoicing is installed in our site
 
 ![](./assets/step-4.png)
-
-
-
-## ESTV-SuisseTax-FX
-
-ESTV-SuisseTax-FX is a cron/scheduled application which daily updates your exchange rate with other currencies.
 
 
 
