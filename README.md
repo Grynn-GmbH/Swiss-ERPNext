@@ -1,6 +1,6 @@
-# SwissERPNext 
+# erpnextswiss 
 
-**swisserpnext** is a customization of [erpnext](https://erpnext.com/) for switzerland opensourced by [grynn](https://grynn.ch). It Contains Features That Makes [erpnext](https://erpnext.com/) Usable for Switzerland Market. Customizations are Created With flexibility in Mind so you can Pick any of the Customization without Worrying About Other. Eg. You can only Install out app that Creates QRBILL without installing the whole suite. Customizations are as follows
+**erpnextswiss** is a customization of [erpnext](https://erpnext.com/) for switzerland opensourced by [grynn](https://grynn.ch). It Contains Features That Makes [erpnext](https://erpnext.com/) Usable for Switzerland Market. Customizations are Created With flexibility in Mind so you can Pick any of the Customization without Worrying About Other. Eg. You can only Install out app that Creates QRBILL without installing the whole suite. Customizations are as follows
 
 1. [ Swiss-E-invoicing-ERPNext](https://github.com/Grynn-GmbH/Swiss-E-invoicing-ERPNext) : Swiss E Invoicing PDF For ERPNEXT by Grynn
 2. [Swiss-QR-Bill-ERPNext](https://github.com/Grynn-GmbH/Swiss-QR-Bill-ERPNext) : Swiss QR Bill by Grynn
@@ -25,7 +25,15 @@ $ bench --site <your-site> install-app grynnswissqrbill
 $ bench restart
 ```
 
-### Checking Installation
+
+
+
+
+
+
+
+
+## Verify Installation of Applications.
 
 #### Step 1: 
 
@@ -45,9 +53,11 @@ Click On About
 
 #### Step - 4 
 
-in about section it should show the installed version of [Swiss-E-Invoice-ERPNext](https://github.com/Grynn-GmbH/Swiss-QR-Bill-ERPNext) Which in this Version Shoing `0.0.1` 
+In about section it should show the installed apps with their versions. Like Here Estv Suissetax FX, Grynnswissqrbill & Swiss Factur X E Invoicing is installed in our site
 
-![](./assets/step-2-about.png)
+![](./assets/step-4.png)
+
+
 
 ## ESTV-SuisseTax-FX
 
@@ -57,7 +67,7 @@ ESTV-SuisseTax-FX is a cron/scheduled application which daily updates your excha
 
 ## License
 
-Every App/Plugin are provided under GPLV3 License and swisserpnext is developed and maintained by  [Grynn](https://grynn.ch)
+Every App/Plugin are provided under [GPLV3](https://en.wikipedia.org/wiki/GNU_General_Public_License) License and swisserpnext is developed and maintained by  [Grynn](https://grynn.ch)
 
 
 
@@ -75,9 +85,17 @@ All the App/Plugin Created for ERPNext by Grynn does not Take any of Your Data. 
 
 ## Contributions
 
-Contributions to any of our applications are welcome
+Contributions to any of our applications are welcome. 
 
 
+
+## Issues
+
+issues specific to app/plugin can be found as follows, these issues mean known bugs to a specific application. this medium is specifically used to file any malfunction of software
+
+1. [ Swiss-E-invoicing-ERPNext Issues](https://github.com/Grynn-GmbH/Swiss-E-invoicing-ERPNext/issues) 
+2. [Swiss-QR-Bill-ERPNext Issues](https://github.com/Grynn-GmbH/Swiss-QR-Bill-ERPNext/issues) 
+3. [ESTV-SuisseTax-FX Issues](https://github.com/Grynn-GmbH/ESTV-SuisseTax-FX/issues) 
 
 ## Contact
 
