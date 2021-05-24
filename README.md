@@ -31,14 +31,14 @@ $ bench restart
 
 Click on ERPNext Logo and Go to your Homepage of Desk
 
-![](/home/akash/Desktop/frappe/swisserpnext/assets/step-1-installation.png)
+![](./assets/step-1-installation.png)
 
 #### Step 2:
 
-![](/home/akash/Desktop/frappe/swisserpnext/assets/step-1-help.png)
+![](./assets/step-1-help.png)
 
 #### Step 3: 
 
 Click On About
 
-![](/home/akash/Desktop/frappe/swisserpnext/assets/step-2-about.png)
+![](./assets/step-2-about.png)
