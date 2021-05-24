@@ -12,17 +12,33 @@
 
 Swiss-E-Invoicing-ERPNext is a App/Plugin for creating E-invoicing as you create sales invoice. with this app/plugin you can automatically create **E-Invoice PDF** and attach it to your **Sales Invoice**. It creates a machine readable XML as per standard FACTUR-X and creates a standard bill as per your default sales invoice template and then creates the attachment.
 
-### Installation (For Developers)
-
-
-
 ### Installation (Frappe Cloud) 
 
+....
 
+### Installation (For Developers)
 
+```sh
+$ cd <your-bench-directory>
+$ bench get-app grynnswissqrbill https://github.com/Grynn-GmbH/Swiss-E-invoicing-ERPNext
+$ bench --site <your-site> install-app grynnswissqrbill
+$ bench restart
+```
 
+### Checking Installation
 
+#### Step 1: 
 
+Click on ERPNext Logo and Go to your Homepage of Desk
 
+![](/home/akash/Desktop/frappe/swisserpnext/assets/step-1-installation.png)
 
+#### Step 2:
 
+![](/home/akash/Desktop/frappe/swisserpnext/assets/step-1-help.png)
+
+#### Step 3: 
+
+Click On About
+
+![](/home/akash/Desktop/frappe/swisserpnext/assets/step-2-about.png)
