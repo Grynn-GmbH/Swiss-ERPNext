@@ -42,3 +42,49 @@ Click on ERPNext Logo and Go to your Homepage of Desk
 Click On About
 
 ![](./assets/step-2-about.png)
+
+#### Step - 4 
+
+in about section it should show the installed version of [Swiss-E-Invoice-ERPNext](https://github.com/Grynn-GmbH/Swiss-QR-Bill-ERPNext) Which in this Version Shoing `0.0.1` 
+
+![](./assets/step-2-about.png)
+
+## ESTV-SuisseTax-FX
+
+ESTV-SuisseTax-FX is a cron/scheduled application which daily updates your exchange rate with other currencies.
+
+
+
+## License
+
+Every App/Plugin are provided under GPLV3 License and swisserpnext is developed and maintained by  [Grynn](https://grynn.ch)
+
+
+
+## Requirements
+
+To use these customizations you need [erpnext](https://github.com/frappe/erpnext) & That is the only requirement.
+
+
+
+## Privacy
+
+All the App/Plugin Created for ERPNext by Grynn does not Take any of Your Data. Privacy is a key factor for grynn and every software provided for customization ensures privacy.
+
+
+
+## Contributions
+
+Contributions to any of our applications are welcome
+
+
+
+## Contact
+
+...
+
+
+
+## About Grynn
+
+...
