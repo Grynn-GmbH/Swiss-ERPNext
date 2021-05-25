@@ -21,7 +21,7 @@ Swiss-E-Invoicing-ERPNext is a App/Plugin for creating E-invoicing as you create
 ```sh
 $ cd <your-bench-directory>
 $ bench get-app grynnswissqrbill https://github.com/Grynn-GmbH/Swiss-E-invoicing-ERPNext
-$ bench --site <your-site> install-app grynnswissqrbill
+$ bench --site <your-site> install-app swiss_factur_x_e_invoicing
 $ bench restart
 ```
 
