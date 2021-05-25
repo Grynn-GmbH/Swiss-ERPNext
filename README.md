@@ -2,8 +2,8 @@
 
 **Swiss ERPNext** is a customization of [erpnext](https://erpnext.com/) for switzerland opensourced by [grynn](https://grynn.ch). It contains features that makes [erpnext](https://erpnext.com/) usable for the Swiss market. Customizations are created With flexibility in mind so you can pick any of the customization and works independently. Eg. You can only Install out app that Creates QRBILL without installing the whole suite. Customizations are as follows
 
-1. [Swiss-E-invoicing-ERPNext](https://github.com/Grynn-GmbH/Swiss-E-invoicing-ERPNext) : Swiss E Invoicing PDF For ERPNEXT by Grynn
-2. [Swiss-QR-Bill-ERPNext](https://github.com/Grynn-GmbH/Swiss-QR-Bill-ERPNext) : Swiss QR Bill by Grynn
+1. [Swiss-E-invoicing-ERPNext](https://github.com/Grynn-GmbH/Swiss-E-invoicing-ERPNext) : Swiss E Invoicing PDF Standard (based on ZUGFERD/Factur-X)
+2. [Swiss-QR-Bill-ERPNext](https://github.com/Grynn-GmbH/Swiss-QR-Bill-ERPNext) : Swiss QR Bill
 3. [ESTV-SuisseTax-FX](https://github.com/Grynn-GmbH/ESTV-SuisseTax-FX) : Automated Daily & Monthly Import of FX Rates
 
 
