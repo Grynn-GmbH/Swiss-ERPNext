@@ -1,4 +1,4 @@
-# Swiss ERPNext - ERPNext Customization for Switzerland. 
+# Swiss ERPNext
 
 **Swiss ERPNext** is a customization of [erpnext](https://erpnext.com/) for switzerland opensourced by [grynn](https://grynn.ch). It Contains Features That Makes [erpnext](https://erpnext.com/) Usable for Switzerland Market. Customizations are Created With flexibility in Mind so you can Pick any of the Customization without Worrying About Other. Eg. You can only Install out app that Creates QRBILL without installing the whole suite. Customizations are as follows
 
@@ -7,14 +7,13 @@
 3. [ESTV-SuisseTax-FX](https://github.com/Grynn-GmbH/ESTV-SuisseTax-FX) : ERPNext for Switzerland By Grynn - Automated Daily & Monthly Import of FX Rates
 
 
-
 ## Swiss-E-invoicing-ERPNext
 
 Swiss-E-Invoicing-ERPNext is a App/Plugin for creating E-invoicing as you create sales invoice. with this app/plugin you can automatically create **E-Invoice PDF** and attach it to your **Sales Invoice**. It creates a machine readable XML as per standard FACTUR-X and creates a standard bill as per your default sales invoice template and then creates the attachment.
 
 ### Installation (Frappe Cloud) 
 
-....
+Check with FrappeCloud documentation.
 
 ### Installation (For Developers)
 
@@ -25,23 +24,19 @@ $ bench --site <your-site> install-app swiss_factur_x_e_invoicing
 $ bench restart
 ```
 
-
-
 ### Prerequisite / Settings
 
-There are no Prerequisite to this application but it is good to have following settings.
+There are a few prerequisite to this application 
 
-1. Company Generating Sales Invoice have Address Assigned to it.
+1. Frappe & ERPNext needs to be installed
+2. Company which is generating "Sales Invoice" MUST have the "Address" doctype assigned to it.
 
-##### For Assigning Address to Company 
+##### For assigning Address to Company Doctype
 
 ![Add Company](./assets/add-company.gif)
 
 ## usage
-
-Using Swiss-E-Invoice-ERPnext is fully automated, you just need to create a Sales Invoice and It Generates the PDF and Attaches it to Sales Invoice
-
-
+Using Swiss-E-Invoice-ERPnext is fully automated. When a Sales Invoice is created & submitted, a PDF/A3 with e-invoice XML is generated and attached to Sales Invoice.
 
 ##  Swiss QR Bill for ERPNext
 
@@ -49,7 +44,7 @@ Using Swiss-E-Invoice-ERPnext is fully automated, you just need to create a Sale
 
 ### Installation (Frappe Cloud) 
 
-....
+Check the documentation on frappecloud.com
 
 ### Installation (For Developers)
 
@@ -62,16 +57,16 @@ $ bench restart
 
 ### Prerequisite / Settings
 
-There are Mandatory Prerequisite for the application as follows
+There are a few prerequisite for the application as follows
 
-1. Company Country Should Be Grynn
-2. Currency of Sales Invoice Should be Either `CHF` or `EUR`
-3. Sales Invoice Customer Address Should be From Switzerland
+1. Frappe & ERPNext is installed 
+2. The Company Country should be Switzerland. If a company is create with India or another country, then this APP will ignore QR code app.
+3. The Currency of Sales Invoice should be either `CHF` or `EUR`. Else it will not create QR bill. This is as per the standards. 
+4. The QR Bill is created in the Customer Language (EN/DE/FR/IT). If no language is set, then DE is the default. 
 
 ### Usage
 
 Using Swiss-QR-Bill-ERPNext is fully automated, you just need to create a Sales Invoice and It Generates the PDF and Attaches it to Sales Invoice
-
 
 
 ## ESTV-SuisseTax-FX
