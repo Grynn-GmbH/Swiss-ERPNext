@@ -38,6 +38,8 @@ There are a few prerequisite to this application
 ## usage
 Using Swiss-E-Invoice-ERPnext is fully automated. When a Sales Invoice is created & submitted, a PDF/A3 with e-invoice XML is generated and attached to Sales Invoice.
 
+---
+
 ##  Swiss QR Bill for ERPNext
 
 ![Swiss QR Bill Types](./assets/qrtypes.jpg)Grynn has developed a QR Bill Generator app (Free and Open Source) that works seemlessly with ERPNext. The Swiss QR Bill can be used in 3 different ways. We have implemented the general version for IBAN, without Reference. 
@@ -66,8 +68,9 @@ There are a few prerequisite for the application as follows
 
 ### Usage
 
-Using Swiss-QR-Bill-ERPNext is fully automated, you just need to create a Sales Invoice and It Generates the PDF and Attaches it to Sales Invoice
+Using Swiss-QR-Bill-ERPNext is fully automated. A QR Bill is generated and attached to the "Sales Invoice" doctype when Sales Invoice is "Submitted".
 
+---
 
 ## ESTV-SuisseTax-FX
 
@@ -86,23 +89,21 @@ $ bench --site <your-site> install-app estv_suissetax_fx
 $ bench restart
 ```
 
-
-
 ### Prerequisite / Settings
 
-in order to enable entries for fx rates for a particular currency you need to enable it through currencies.
+1. Frappe / ERPPNext should be installed
+2. Currencies which are enabled are the only ones for which FX rates are entered everyday
+3. Enable the currency you want as shown below. 
 
 ![Enable Currency](./assets/currency.gif)
 
-
-
 ### Usage
 
-Using ESTV-SuisseTax-FX is fully automated, you just need to create a Sales Invoice and It Generates the PDF and Attaches it to Sales Invoice
+Using ESTV-SuisseTax-FX is fully automated. Once installed, the FX rates are downloded everyday and entered into ERPNext. 
 
+---
 
-
-## Check Installed Applications
+### How to check whether an  APP is installed. 
 
 #### Step 1: 
 
@@ -130,43 +131,31 @@ In about section it should show the installed apps with their versions. Like Her
 
 ## License
 
-Every App/Plugin are provided under [GPLV3](https://en.wikipedia.org/wiki/GNU_General_Public_License) License and swisserpnext is developed and maintained by  [Grynn](https://grynn.ch)
-
+Every App/Plugin are provided under [GPLV3](https://en.wikipedia.org/wiki/GNU_General_Public_License) License and swisserpnext is developed and maintained by  [Grynn GmbH](https://grynn.ch)
 
 
 ## Requirements
 
-To use these customizations you need [erpnext](https://github.com/frappe/erpnext) & That is the only requirement.
-
-
+To use these customizations you need [erpnext](https://github.com/frappe/erpnext) & Frappe installed. 
 
 ## Privacy
-
-All the App/Plugin Created for ERPNext by Grynn does not Take any of Your Data. Privacy is a key factor for grynn and every software provided for customization ensures privacy.
-
-
+All the App/Plugin Created for ERPNext by Grynn does not Take any of Your Data. 
+Privacy is a key factor for grynn and every software provided for customization ensures privacy.
 
 ## Contributions
-
 Contributions to any of our applications are welcome. 
 
-
-
 ## Issues
-
-issues specific to app/plugin can be found as follows, these issues mean known bugs to a specific application. this medium is specifically used to file any malfunction of software
+Issues specific to app/plugin can be found as follows, these issues mean known bugs to a specific application. This medium is specifically used to file any malfunction of software
 
 1. [ Swiss-E-invoicing-ERPNext Issues](https://github.com/Grynn-GmbH/Swiss-E-invoicing-ERPNext/issues) 
 2. [Swiss-QR-Bill-ERPNext Issues](https://github.com/Grynn-GmbH/Swiss-QR-Bill-ERPNext/issues) 
 3. [ESTV-SuisseTax-FX Issues](https://github.com/Grynn-GmbH/ESTV-SuisseTax-FX/issues) 
 
 
-
 ## Contact
 
 If you would like us to implement the other two types, kindly get in touch with us. sales@grynn.ch. 
-
-
 
 ## Grynn's Mission : Promote & Implement ERPNext for Swiss Companies
 
@@ -174,14 +163,14 @@ Grynn GmbH loves, implements & promotes ERPNext in Switzerland, Germany, Eastern
 
 Founded in 2017 by Deepak Pai in order to help companies with their digital transformation journey. He has 2 decades of IT and Finance & has worked for companies such as Bank of America, Unilever and Ecolab. He is an MBA graduate of St. Gallen University (Switzerland) and alumnus of MIT Manipal. He is a certified digital strategist from MIT/Emeritus & consults for F500 companies.
 
-
+---
 
 ## Grynn and Open Source
 
 Grynn is an advocate of using Free and Open Source Software (FOSS). ERPNext is world's #1 ERP system that is 100% FOSS. 
 Grynn from time to time contributes to the ERPNext ecosystem by developing Open Source applications such as Swiss QR Bill. 
 
-
+---
 
 ### Logo and Trademark
 
